@@ -14,11 +14,6 @@
 
 */
 
-
-
-
-
-
 #include <Arduino.h>
 
 
@@ -41,4 +36,18 @@ void loop() {
 
   delay(20);
 
+}
+
+bool batteryLow {
+  /*
+  If battery voltage is lower than 11 volts for over 3 minutes return true.
+  Otherwise return false.
+  If two or more? meassurments are over 11 volts in those three minutes reset counter to zero.
+  */
+
+  if(voltage <= 3){
+    return true;
+  }
+
+return false; 
 }
