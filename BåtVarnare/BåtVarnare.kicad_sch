@@ -2169,16 +2169,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 171.45 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "205dbef6-8407-430b-a270-ae59123715ad")
-	)
-	(wire
-		(pts
 			(xy 153.67 21.59) (xy 212.09 21.59)
 		)
 		(stroke
@@ -3029,7 +3019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d5aedf4-6cfe-419a-b3a0-f78b6e16efab")
-		(property "Reference" "R1"
+		(property "Reference" "R1Nödvändig??"
 			(at 173.736 95.25 90)
 			(effects
 				(font
@@ -3081,7 +3071,7 @@
 		(instances
 			(project ""
 				(path "/be6829d7-daf3-4649-8621-8128d8bc6168"
-					(reference "R1")
+					(reference "R1Nödvändig??")
 					(unit 1)
 				)
 			)
