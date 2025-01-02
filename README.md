@@ -14,3 +14,8 @@ En produkt för att
   6. Status updates upon receiving sms
 
   Authors: Erik and Leonard
+
+
+Leonard Info:
+Eventuellt ett bra bibliotek:
+https://github.com/vittorioexp/Sim800L-Arduino-Library-revised
