@@ -19,3 +19,4 @@ En produkt för att
 Leonard Info:
 Eventuellt ett bra bibliotek:
 https://github.com/vittorioexp/Sim800L-Arduino-Library-revised
+Förmodligen inte använda arduino rx/tx pin
