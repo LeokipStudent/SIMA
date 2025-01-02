@@ -1,4 +1,5 @@
 /*
+
   Project to send a warning if the boat is taking in water or the battery is dying.
   Warnings sent using sms
   1. Send sms
@@ -10,6 +11,7 @@
 
   Authors: Erik and Leonard
   Ändrad
+
 */
 
 
