@@ -21,19 +21,24 @@
 
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+ 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-}
+  
+  //Check water
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  delay(20);
+
+  //Check battery
+  //Send sms if warning
+  //Check if new incoming sms
+  //Add new cintact if incoming sms
+
+  delay(20);
+
 }
