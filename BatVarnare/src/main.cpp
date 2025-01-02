@@ -9,7 +9,7 @@
   6. Status updates upon receiving sms
 
   Authors: Erik and Leonard
-
+  Ändrad
 */
 
 
