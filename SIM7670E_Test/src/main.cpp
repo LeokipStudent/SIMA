@@ -1,6 +1,7 @@
 /*
   Code to test the SIM7670E module
   Basic Serial Test commands and SMS Test
+  
 */
 
 #include <Arduino.h>
@@ -16,8 +17,13 @@ void setup() {
   delay(3000);
   
   String temp;
+  String number = "+46704416636";
+  String message = "Hej Varlden!";
 
-  //sendSMS("+46704416636", "Hej Varlden!");
+
+  //Uncomment to send sms
+  //sendSMS(number, message);
+
   temp = SIM7670.println("AT"); //Test
   delay(200);
   Serial.println("\nTest info:");
