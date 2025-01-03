@@ -1,4 +1,6 @@
 /*
+  Project: SIMA
+  Authors: Erik and Leonard
 
   Project to send a warning if the boat is taking in water or the battery is dying.
   Warnings sent using sms
@@ -8,8 +10,6 @@
   4. Integrate everything
   5. Add new phone number to the system via sms
   6. Status updates upon receiving sms
-
-  Authors: Erik and Leonard
 
 */
 
