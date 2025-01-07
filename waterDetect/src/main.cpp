@@ -16,12 +16,13 @@ void setup() {
 void loop() {
   if(waterDetected()) {
     Serial.println("Vatten upptäckt!");
+    count = 0;
   } else if(count == 5) {
     Serial.println("Inget vatten upptäckt!");
     count = 0;
   }
-  
-  delay(200);
+  ++count;
+  delay(500);
 }
 
 // put function definitions here:

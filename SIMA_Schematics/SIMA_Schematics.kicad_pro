@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BåtVarnare.kicad_pro",
+    "filename": "SIMA_Schematics.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -577,7 +577,7 @@
   "sheets": [
     [
       "be6829d7-daf3-4649-8621-8128d8bc6168",
-      "Root"
+      "Rotark"
     ]
   ],
   "text_variables": {}

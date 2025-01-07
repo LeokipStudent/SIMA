@@ -2219,16 +2219,22 @@
 		(uuid "108ab6d0-6306-4d7a-a6c1-da10ed2d5531")
 	)
 	(junction
+		(at 140.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30bd67b3-13b6-467a-86e7-86522ecf32be")
+	)
+	(junction
 		(at 153.67 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b383d75-e670-4085-8dd4-9f4862c8e8e5")
 	)
 	(junction
-		(at 168.91 105.41)
+		(at 165.1 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7cb2fa0f-02f1-440c-b68e-465c9017f435")
+		(uuid "630749ad-5bea-4963-8ee0-71d6745022f7")
 	)
 	(junction
 		(at 168.91 81.28)
@@ -2300,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 105.41) (xy 168.91 114.3)
+			(xy 168.91 99.06) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2327,6 +2333,16 @@
 			(type default)
 		)
 		(uuid "1b6b5300-548e-4ee9-b4eb-147d863961d3")
+	)
+	(wire
+		(pts
+			(xy 165.1 105.41) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d62bb93-feae-4a4c-8483-8414dd3ac92d")
 	)
 	(wire
 		(pts
@@ -2500,16 +2516,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 168.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52926c98-83fa-47f5-b987-1a7dda91561f")
-	)
-	(wire
-		(pts
 			(xy 107.95 86.36) (xy 111.76 86.36)
 		)
 		(stroke
@@ -2550,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 140.97 48.26)
+			(xy 140.97 48.26) (xy 140.97 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2610,6 +2616,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b4941a-dfd4-4004-a4c2-e7a8ab2c0d85")
+	)
+	(wire
+		(pts
 			(xy 212.09 114.3) (xy 168.91 114.3)
 		)
 		(stroke
@@ -2650,6 +2666,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 114.3) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ca83fa-7c7d-4758-927b-76e18fab439f")
+	)
+	(wire
+		(pts
 			(xy 116.84 21.59) (xy 153.67 21.59)
 		)
 		(stroke
@@ -2657,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "96faf486-bafe-422d-840d-440a78c413b9")
-	)
-	(wire
-		(pts
-			(xy 142.24 53.34) (xy 140.97 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a38d14b-4920-4748-a4ce-db9b71f64c63")
 	)
 	(wire
 		(pts
@@ -2680,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 142.24 53.34)
+			(xy 140.97 55.88) (xy 140.97 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2750,16 +2766,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 123.19 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c023d6af-d873-4b0a-bc15-e0592c4cb773")
-	)
-	(wire
-		(pts
 			(xy 153.67 41.91) (xy 153.67 53.34)
 		)
 		(stroke
@@ -2810,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 135.89 114.3)
+			(xy 168.91 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2840,16 +2846,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 54.61) (xy 120.65 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2328469-b0b3-4cfd-9a8f-a9f0a5322cf1")
-	)
-	(wire
-		(pts
 			(xy 101.6 73.66) (xy 119.38 73.66)
 		)
 		(stroke
@@ -2857,16 +2853,6 @@
 			(type default)
 		)
 		(uuid "d60ddda0-6760-4b61-a290-50b322b3f3c0")
-	)
-	(wire
-		(pts
-			(xy 120.65 54.61) (xy 166.37 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da84c9c4-02cf-4416-8d60-9b9ae7662016")
 	)
 	(wire
 		(pts
@@ -2907,16 +2893,6 @@
 			(type default)
 		)
 		(uuid "e41d5a46-09ed-4db4-988d-801a1638585e")
-	)
-	(wire
-		(pts
-			(xy 140.97 55.88) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e670c42f-6cf0-4f32-baf4-acc38369c928")
 	)
 	(wire
 		(pts
@@ -2970,16 +2946,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 168.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf134b8-6799-4303-bad2-20d3ee6b5ff5")
-	)
-	(wire
-		(pts
 			(xy 148.59 81.28) (xy 168.91 81.28)
 		)
 		(stroke
@@ -3023,6 +2989,18 @@
 			)
 		)
 		(uuid "022c1e05-7275-4d9e-9045-3129b406693c")
+	)
+	(text "Kopplas till 5v eller D3?"
+		(exclude_from_sim no)
+		(at 187.706 73.914 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "22320785-fae2-487c-8f33-7aa5873ca4df")
 	)
 	(text "5v"
 		(exclude_from_sim no)
@@ -3130,7 +3108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d5aedf4-6cfe-419a-b3a0-f78b6e16efab")
-		(property "Reference" "R1Nödvändig??"
+		(property "Reference" "R1"
 			(at 173.736 95.25 90)
 			(effects
 				(font
@@ -3182,7 +3160,7 @@
 		(instances
 			(project ""
 				(path "/be6829d7-daf3-4649-8621-8128d8bc6168"
-					(reference "R1Nödvändig??")
+					(reference "R1")
 					(unit 1)
 				)
 			)
