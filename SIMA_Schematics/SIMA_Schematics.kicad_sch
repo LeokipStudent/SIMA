@@ -3737,7 +3737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2 kohm"
+		(property "Value" "560 ohm"
 			(at 114.3 83.8199 0)
 			(effects
 				(font
