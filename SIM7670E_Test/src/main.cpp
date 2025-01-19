@@ -1,4 +1,5 @@
 /*
+  Legacy code that never would work
   Code to test the SIM7670E module
   Basic Serial Test commands and SMS Test
   
