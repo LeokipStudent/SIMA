@@ -3409,7 +3409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIM800C"
+		(property "Value" "SIM7670E"
 			(at 79.0859 114.3 0)
 			(effects
 				(font

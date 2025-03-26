@@ -24,7 +24,7 @@ void setup()
   updateSerial();
   mySerial.println("AT+CREG?"); //Check whether it has registered in the network
   updateSerial();
-  mySerial..println("AT+SIMCOMATI"); //Query module info 
+  mySerial.println("AT+SIMCOMATI"); //Query module info 
   updateSerial();
 }
 
