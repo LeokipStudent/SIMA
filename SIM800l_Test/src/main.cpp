@@ -1,31 +1,25 @@
 #include <Arduino.h>
-
 #include <SoftwareSerial.h>
 
-//Create software serial object to communicate with SIM800L
-SoftwareSerial mySerial(5, 4); 
+// Create software serial object for SIM7670E
+SoftwareSerial mySerial(5, 4); // RX:D5, TX:D4
+
+void sendATCommand(String command, String label);
+void updateSerial();
 
 void setup()
 {
-  //Begin serial communication with Arduino and Arduino IDE (Serial Monitor)
-  Serial.begin(9600);
-  
-  //Begin serial communication with Arduino and SIM800L
-  mySerial.begin(9600);
+  Serial.begin(9600); // Serial Monitor
+  mySerial.begin(9600); // SIM Module
 
   Serial.println("Initializing...");
   delay(1000);
 
-  mySerial.println("AT"); //Once the handshake test is successful, it will back to OK
-  updateSerial();
-  mySerial.println("AT+CSQ"); //Signal quality test, value range is 0-31 , 31 is the best
-  updateSerial();
-  mySerial.println("AT+CCID"); //Read SIM information to confirm whether the SIM is plugged
-  updateSerial();
-  mySerial.println("AT+CREG?"); //Check whether it has registered in the network
-  updateSerial();
-  mySerial.println("AT+SIMCOMATI"); //Query module info 
-  updateSerial();
+  sendATCommand("AT", "Test AT");
+  sendATCommand("AT+CSQ", "Signal Quality");
+  sendATCommand("AT+CCID", "SIM Card Info");
+  sendATCommand("AT+CREG?", "Network Registration");
+  sendATCommand("AT+SIMCOMATI", "Module Info");
 }
 
 void loop()
@@ -33,15 +27,32 @@ void loop()
   updateSerial();
 }
 
+void sendATCommand(String command, String label)
+{
+  Serial.println("\nSending: " + command);
+  mySerial.println(command);
+  delay(500);
+
+  if (mySerial.available()) {
+    Serial.print(label + " Response: ");
+    while (mySerial.available()) {
+      Serial.write(mySerial.read());
+    }
+    Serial.println();
+  } else {
+    Serial.println(label + " Response: No response.");
+  }
+}
+
 void updateSerial()
 {
   delay(500);
   while (Serial.available()) 
   {
-    mySerial.write(Serial.read());//Forward what Serial received to Software Serial Port
+    mySerial.write(Serial.read()); // Forward Serial Monitor input to SIM7670E
   }
-  while(mySerial.available()) 
+  while (mySerial.available()) 
   {
-    Serial.write(mySerial.read());//Forward what Software Serial received to Serial Port
+    Serial.write(mySerial.read()); // Forward SIM7670E output to Serial Monitor
   }
 }
